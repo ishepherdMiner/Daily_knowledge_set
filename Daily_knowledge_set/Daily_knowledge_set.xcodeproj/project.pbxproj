@@ -17,6 +17,7 @@
 		9661D01E1DF99AA00042D5ED /* ComConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9661D01D1DF99AA00042D5ED /* ComConfig.swift */; };
 		967024AC1DF9A11200E9BE8B /* DataTransferViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 967024AB1DF9A11200E9BE8B /* DataTransferViewController.m */; };
 		967024AF1DF9B4F600E9BE8B /* DelegateView.m in Sources */ = {isa = PBXBuildFile; fileRef = 967024AE1DF9B4F600E9BE8B /* DelegateView.m */; };
+		96F2EDCC1E38D6AF003CC066 /* SwiftStringViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96F2EDCB1E38D6AF003CC066 /* SwiftStringViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,8 @@
 		967024AB1DF9A11200E9BE8B /* DataTransferViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataTransferViewController.m; sourceTree = "<group>"; };
 		967024AD1DF9B4F600E9BE8B /* DelegateView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DelegateView.h; sourceTree = "<group>"; };
 		967024AE1DF9B4F600E9BE8B /* DelegateView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DelegateView.m; sourceTree = "<group>"; };
+		96F2EDCA1E38D6AF003CC066 /* SwiftStringViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwiftStringViewController.h; sourceTree = "<group>"; };
+		96F2EDCB1E38D6AF003CC066 /* SwiftStringViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwiftStringViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +143,7 @@
 			children = (
 				9661D01F1DF99E270042D5ED /* Daily_knowledge_set-Bridging-Header.h */,
 				967024A91DF9A11200E9BE8B /* DataTransfer */,
+				96F2EDC91E38D68A003CC066 /* SwiftString */,
 				9661D01D1DF99AA00042D5ED /* ComConfig.swift */,
 			);
 			path = Classes;
@@ -154,6 +158,15 @@
 				967024AE1DF9B4F600E9BE8B /* DelegateView.m */,
 			);
 			path = DataTransfer;
+			sourceTree = "<group>";
+		};
+		96F2EDC91E38D68A003CC066 /* SwiftString */ = {
+			isa = PBXGroup;
+			children = (
+				96F2EDCA1E38D6AF003CC066 /* SwiftStringViewController.h */,
+				96F2EDCB1E38D6AF003CC066 /* SwiftStringViewController.m */,
+			);
+			path = SwiftString;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -297,6 +310,7 @@
 				9661CFEC1DF986530042D5ED /* ViewController.swift in Sources */,
 				967024AF1DF9B4F600E9BE8B /* DelegateView.m in Sources */,
 				967024AC1DF9A11200E9BE8B /* DataTransferViewController.m in Sources */,
+				96F2EDCC1E38D6AF003CC066 /* SwiftStringViewController.m in Sources */,
 				9661CFEA1DF986530042D5ED /* AppDelegate.swift in Sources */,
 				9661D01E1DF99AA00042D5ED /* ComConfig.swift in Sources */,
 			);

@@ -15,6 +15,10 @@ class ComConfig: NSObject {
                 "name":"iOS中数据传递的机制",
                 "ctrl":"DataTransferViewController"
             ],
+            [
+                "name":"Swift 3上的String和Character",
+                "ctrl":"SwiftStringViewController"
+            ]
         ]
     }()
     
