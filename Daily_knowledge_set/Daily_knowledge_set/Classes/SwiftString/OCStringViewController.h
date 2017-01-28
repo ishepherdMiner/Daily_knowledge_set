@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SwiftStringViewController : UIViewController
+@interface OCStringViewController : UIViewController
 
 @end

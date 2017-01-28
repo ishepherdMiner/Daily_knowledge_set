@@ -6,18 +6,19 @@
 //  Copyright © 2017 Jason. All rights reserved.
 //
 
-#import "SwiftStringViewController.h"
+#import "OCStringViewController.h"
 
-@interface SwiftStringViewController ()
+@interface OCStringViewController ()
 
 @end
 
-@implementation SwiftStringViewController
+@implementation OCStringViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor whiteColor];
     [self forEachInObjc];
+    [self forEachStringInObjc];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -48,6 +49,14 @@
     for (int i = 0; i < s.length; ++i) {
         NSLog(@"%c",[s characterAtIndex:i]);
     }
+    
+//    for (NSString *subs in s) {
+//        
+//    }
+    
+    [s enumerateSubstringsInRange:NSMakeRange(0, s.length) options:NSStringEnumerationByComposedCharacterSequences usingBlock:^(NSString * _Nullable substring, NSRange substringRange, NSRange enclosingRange, BOOL * _Nonnull stop) {
+        NSLog(@"%@",substring);
+    }];
 }
 
 
