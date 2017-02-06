@@ -15,7 +15,7 @@
 		9661CFFF1DF986530042D5ED /* Daily_knowledge_setTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9661CFFE1DF986530042D5ED /* Daily_knowledge_setTests.swift */; };
 		9661D00A1DF986530042D5ED /* Daily_knowledge_setUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9661D0091DF986530042D5ED /* Daily_knowledge_setUITests.swift */; };
 		9661D01E1DF99AA00042D5ED /* ComConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9661D01D1DF99AA00042D5ED /* ComConfig.swift */; };
-		966DDD201E3CC3A00010B7F2 /* SwiftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966DDD1F1E3CC3A00010B7F2 /* SwiftViewController.swift */; };
+		966DDD201E3CC3A00010B7F2 /* SwiftStringViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966DDD1F1E3CC3A00010B7F2 /* SwiftStringViewController.swift */; };
 		967024AC1DF9A11200E9BE8B /* DataTransferViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 967024AB1DF9A11200E9BE8B /* DataTransferViewController.m */; };
 		967024AF1DF9B4F600E9BE8B /* DelegateView.m in Sources */ = {isa = PBXBuildFile; fileRef = 967024AE1DF9B4F600E9BE8B /* DelegateView.m */; };
 		96F2EDCC1E38D6AF003CC066 /* OCStringViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96F2EDCB1E38D6AF003CC066 /* OCStringViewController.m */; };
@@ -54,7 +54,7 @@
 		9661D00B1DF986530042D5ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9661D01D1DF99AA00042D5ED /* ComConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComConfig.swift; sourceTree = "<group>"; };
 		9661D01F1DF99E270042D5ED /* Daily_knowledge_set-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Daily_knowledge_set-Bridging-Header.h"; sourceTree = "<group>"; };
-		966DDD1F1E3CC3A00010B7F2 /* SwiftViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftViewController.swift; sourceTree = "<group>"; };
+		966DDD1F1E3CC3A00010B7F2 /* SwiftStringViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftStringViewController.swift; sourceTree = "<group>"; };
 		967024AA1DF9A11200E9BE8B /* DataTransferViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataTransferViewController.h; sourceTree = "<group>"; };
 		967024AB1DF9A11200E9BE8B /* DataTransferViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataTransferViewController.m; sourceTree = "<group>"; };
 		967024AD1DF9B4F600E9BE8B /* DelegateView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DelegateView.h; sourceTree = "<group>"; };
@@ -167,7 +167,7 @@
 			children = (
 				96F2EDCA1E38D6AF003CC066 /* OCStringViewController.h */,
 				96F2EDCB1E38D6AF003CC066 /* OCStringViewController.m */,
-				966DDD1F1E3CC3A00010B7F2 /* SwiftViewController.swift */,
+				966DDD1F1E3CC3A00010B7F2 /* SwiftStringViewController.swift */,
 			);
 			path = SwiftString;
 			sourceTree = "<group>";
@@ -316,7 +316,7 @@
 				96F2EDCC1E38D6AF003CC066 /* OCStringViewController.m in Sources */,
 				9661CFEA1DF986530042D5ED /* AppDelegate.swift in Sources */,
 				9661D01E1DF99AA00042D5ED /* ComConfig.swift in Sources */,
-				966DDD201E3CC3A00010B7F2 /* SwiftViewController.swift in Sources */,
+				966DDD201E3CC3A00010B7F2 /* SwiftStringViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

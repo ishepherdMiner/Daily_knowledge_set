@@ -43,9 +43,16 @@ extension ViewController : UITableViewDataSource {
 extension ViewController : UITableViewDelegate {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         
-        // http://stackoverflow.com/questions/24030814/swift-language-nsclassfromstring/32265287#32265287        
-        let ctrl = (ComConfig.shared.dataList[indexPath.row]["ctrl"])! as String
+        // http://stackoverflow.com/questions/24030814/swift-language-nsclassfromstring/32265287#32265287   
+        var ctrl = ""
+        if ComConfig.shared.dataList[indexPath.row]["isSwift"] == "0"{
+            ctrl = (ComConfig.shared.dataList[indexPath.row]["ctrl"])! as String
+        }else {
+            ctrl = ComConfig.shared.module + "." + (ComConfig.shared.dataList[indexPath.row]["ctrl"])! as String
+        }
+        
         let vc = (NSClassFromString(ctrl) as? UIViewController.Type)?.init()
+        
         vc?.title = (ComConfig.shared.dataList[indexPath.row]["name"])
         navigationController?.pushViewController(vc!, animated: true)
     }

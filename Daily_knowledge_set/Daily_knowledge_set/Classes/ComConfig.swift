@@ -13,15 +13,19 @@ class ComConfig: NSObject {
         return [
             [
                 "name":"iOS中数据传递的机制",
-                "ctrl":"DataTransferViewController"
+                "ctrl":"DataTransferViewController",
+                "isSwift":"0"
             ],
             [
                 "name":"Swift 3上的String和Character",
-                "ctrl":"SwiftStringViewController"
+                "ctrl":"SwiftStringViewController",
+                "isSwift":"1"
             ]
         ]
     }()
     
     // http://www.cocoachina.com/swift/20151207/14584.html
     static let shared = ComConfig()
+    
+    public let module = "Daily_knowledge_set"
 }
